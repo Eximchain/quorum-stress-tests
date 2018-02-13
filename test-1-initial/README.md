@@ -30,4 +30,16 @@ Tests a relatively small, multi-region network to demonstrate the functionality 
 
 ## Test Results
 
-**TODO**: Test still in progress. Results will be uploaded upon completion.
+### Overall
+
+**SUCCESS**
+
+The network is still running after almost a day of running
+
+### Details
+
+At any given point there are around 14 Pending transactions. The process crash metrics suggest there was a crashed process, but there is no evidence that the instance that emitted the metric had a quorum or constellation crash. It may be a bug in the event listener.
+
+### Metrics
+
+![Test 1 Metrics](test-1-metrics.png "Test 1 Metrics")
