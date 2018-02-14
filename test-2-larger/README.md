@@ -30,4 +30,17 @@ Tests a larger, multi-region network to determine if a network of this size can 
 
 ## Test Results
 
-**TODO**: Test still in progress. Results will be uploaded upon completion.
+### Overall
+
+**SUCCESS**
+
+The network is still running after ~20 hours of running
+
+### Details
+
+At any given point there are around 40 Pending transactions. There were no process crashes.
+
+### Metrics
+
+![Test 2 Metrics](test-2-metrics.png "Test 2 Metrics")
+
