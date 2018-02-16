@@ -1,4 +1,4 @@
-# Test 3: Increased Size
+# Test 4: Increased Size
   
 ## Description
 
@@ -17,7 +17,7 @@ Tests an even larger, multi-region network to determine if a network of this siz
 ### Network Configuration
 | Property                       | Value       |
 | :----------------------------: | :---------: |
-| Votes to Confirm Block         | 18          |
+| Votes to Confirm Block         | 28          |
 | Gas Limit Per Block            | 804247552   |
 | Block Maker Minimum Block Time | 60 seconds  |
 | Block Maker Maximum Block Time | 300 seconds |
