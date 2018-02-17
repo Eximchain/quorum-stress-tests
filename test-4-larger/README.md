@@ -32,8 +32,6 @@ Tests an even larger, multi-region network to determine if a network of this siz
 
 ### Overall
 
-### Overall
-
 **SUCCESS**
 
 The network is still running after ~1 day of running
