@@ -32,6 +32,15 @@ Tests an even larger, multi-region network to determine if a network of this siz
 
 ### Overall
 
-### Overall
+**SUCCESS**
 
-**TODO**
+The network is still running after ~1 day of running
+
+### Details
+
+At any given point there are around 190 Pending transactions. There were 2 instances that emitted metrics indicating a process crash, but no further evidence of crashing was found.
+
+### Metrics
+
+![Test 5 Metrics](test-5-metrics.png "Test 5 Metrics")
+
