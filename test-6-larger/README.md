@@ -32,7 +32,15 @@ Tests an even larger, multi-region network to determine if a network of this siz
 
 ### Overall
 
-**TODO**
+**SUCCESS**
+
+The network is still running after ~5 days of running
+
+### Details
+
+At any given point there are around 380 Pending transactions. There were instances that emitted metrics indicating a process crash, but no further evidence of crashing was found.
+
+The following logs were found, suggesting that at some point, credentials are lost, probably while being refreshed. This seems to cause a process crash metric, though it cannot be completely separated from the other sporadic occurrences of this.
 
 ```
 unexpected exit, emitting cloudwatch metric
@@ -79,3 +87,7 @@ unexpected exit, emitting cloudwatch metric
 unexpected exit, emitting cloudwatch metric
 unexpected exit, emitting cloudwatch metric
 ```
+
+### Metrics
+
+![Test 6 Metrics](test-6-metrics.png "Test 6 Metrics")
