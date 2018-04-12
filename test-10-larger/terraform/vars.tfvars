@@ -1,0 +1,9 @@
+public_key_path          = "~/.ssh/quorum.pub"
+private_key_path         = "~/.ssh/quorum"
+cert_owner               = "FIXME_USER"
+force_destroy_s3_buckets = true
+generate_metrics         = true
+vault_cluster_size       = 3
+vault_instance_type      = "t2.small"
+consul_cluster_size      = 3
+consul_instance_type     = "t2.small"
