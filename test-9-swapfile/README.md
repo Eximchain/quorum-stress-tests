@@ -33,12 +33,14 @@ Tests the same size network with a swapfile activated to see if we can stand up 
 
 ### Overall
 
-**PENDING**
+**SUCCESS**
+
+The network is still running after ~5 days of running. The swapfile seems to fix the out of memory issue.
 
 ### Details
 
-TODO
+At any given point there are around 800 Pending transactions. The process crash metric is still noisy.
 
 ### Metrics
 
-TODO
+![Test 9 Metrics](test-9-metrics.png "Test 9 Metrics")
